@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Slab|Ubuntu');
+
+
+.close_button{
+    text-align:right;
+    margin-right:4px;
+    margin-bottom:4px;
+    cursor: pointer;
+}
+.sidenav{
+    position:relative;
+}
+.content{
+    font-size:2em;
+    font-family: 'Ubuntu', sans-serif;    
+    position: absolute;
+    width:100%;
+    right:0px;
+    min-height: 100%;
+    background-color:red;
+    transition:0.3s;
+    overflow-x: hidden;
+    }
+
+.sidenav {
+    height: 100%;
+    width:0%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #9162e4;
+    color:white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+}
+
+
+
+*{margin:0px;padding: 0px;}
+
+
+.sidenav .header{
+    background-color:#5e35b1;
+    color:white;
+    position: relative;
+    top:0px;
+    height: 30%;
+    padding:5px;
+}
+
+.sidenav .header .image_space{
+    position: relative;
+    height: 90%;
+        
+    margin:15px;
+    background-color: #9162e4;
+}
+
+.sidenav .header .name{
+    position:absolute;
+    bottom:0px;
+    left: 50%;
+    transform:translateX(-50%);
+    
+
+}
+
+.sidenav ul{
+    margin-top:10px;
+    margin-left:0px;
+    width:100%;
+    padding:10px;
+}
+
+.sidenav li{
+    list-style-type: none;
+    padding:10px;
+    margin:0px;
+}
+
+.sidenav li:hover{
+    background-color:#280680;
+    width:100%;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #280680;
+}
+
+.sidenav a{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+@media (max-width:1500px)
+{
+   .container{background-color:yellow;}
+
+}
+@media  (max-width:600px) 
+{
+    .container{background-color:green;}
+  
+}
+
