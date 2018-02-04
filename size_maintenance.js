@@ -42,8 +42,8 @@ function device_resize()
     window_height=window.innerHeight;
 
     if(window.devicePixelRatio>1)
-    {document.getElementById("body").style.fontSize="2.6em";
-    document.getElementById("mySidenav").style.fontSize="1.5em";
+    {document.getElementById("body").style.fontSize="1em";
+    document.getElementById("mySidenav").style.fontSize="2.5em";
     
     }
 
